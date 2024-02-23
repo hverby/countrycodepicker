@@ -1,0 +1,23 @@
+name: countrycodepicker
+description: Flexible Country picker for getting Country code and Calling code.
+version: 1.0.0
+author: Hans-Vernier Begou
+homepage: https://github.com/hverby/countrycodepicker.git
+
+environment:
+  sdk: ^3.3.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_sim_country_code: ^0.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+    - flags/
+    - raw/
